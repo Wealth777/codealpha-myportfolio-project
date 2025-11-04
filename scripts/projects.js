@@ -11,20 +11,21 @@ const projects = [
   {
     id: 2,
     title: "Mini Calculator",
-    description: "",
-    demo: "https://your-demo-link.com/pixhaven",
-    date: "Oct 15, 2025",
+    description: `Project From Code
+    A simple web-based calculator built with HTML, CSS, and JavaScript. It performs basic arithmetic operations like addition, subtraction, multiplication,  division and other scientific calculation. The interface is clean, responsive, and easy to use for quick calculations.",
+    demo: "https://wealth777.github.io/codealpha-calculator-project/",
+    date: "Oct 15, 2025`,
     status: "completed",
-    image: "/assets/projects/pixhaven.jpg"
+    image: "../assect/Screenshot 2025-11-04 135325.png"
   },
   {
     id: 3,
     title: "GreatMind AI",
     description: "...",
-    demo: "https://your-demo-link.com/fellowship",
+    demo: "https://greatmindai-d812f.web.app/",
     date: "Sep 20, 2025",
     status: "completed",
-    image: "/assets/projects/fellowship.jpg"
+    image: "../assect/Screenshot 2025-11-04 135002.png"
   },
     {
     id: 4,
