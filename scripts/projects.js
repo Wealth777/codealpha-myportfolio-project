@@ -15,7 +15,7 @@ const projects = [
     demo: "https://wealth777.github.io/codealpha-calculator-project/",
     date: "Oct 11, 2025",
     status: "completed",
-    image: "./assect/Screenshot 2025-11-04 135325.png"
+    image: "/assect/Screenshot 2025-11-04 135325.png"
   },
   {
     id: 3,
