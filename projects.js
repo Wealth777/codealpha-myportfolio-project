@@ -80,7 +80,8 @@ It features a clean, responsive design, dark mode.`,
     demo: "https://wealth777.github.io/Football_Lineup/",
     date: "Oct 29, 2025",
     status: "completed",
-    image: "./assect/Screenshot1.png"
+    image: "assect/Screenshot1.png"
+
   },
   {
     id: 9,
