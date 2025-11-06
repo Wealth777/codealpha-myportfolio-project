@@ -26,7 +26,7 @@ function initRSVP() {
 const home = document.getElementById('backHome')
 
 home.addEventListener('click', ()=>{
-    window.location.href = '../index.html'
+    window.location.href = './index.html'
 })
 
 
@@ -49,7 +49,7 @@ function showToast(msg, isError = false) {
 
 document.addEventListener('DOMContentLoaded', function () {
 
-
+  // Smooth scroll
   document.querySelectorAll('a[href^="#"]').forEach(a => {
     a.addEventListener('click', function (e) {
       e.preventDefault();
@@ -58,4 +58,28 @@ document.addEventListener('DOMContentLoaded', function () {
       if (target) target.scrollIntoView({ behavior: 'smooth' });
     });
   });
+
+  // Theme toggle
+  const themeToggle = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  // Apply saved theme
+  if (savedTheme === 'light') {
+    document.body.classList.add('light');
+    themeToggle.textContent = '🌞';
+  } else {
+    themeToggle.textContent = '🌙';
+  }
+
+  // Toggle theme on click
+  themeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('light');
+
+    const currentTheme = document.body.classList.contains('light') ? 'light' : 'dark';
+    themeToggle.textContent = currentTheme === 'light' ? '🌞' : '🌙';
+
+    localStorage.setItem('theme', currentTheme);
+  });
 });
+
+

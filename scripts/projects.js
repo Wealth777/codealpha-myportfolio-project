@@ -2,8 +2,7 @@ const projects = [
   {
     id: 1,
     title: "School Portal",
-    description: "Collection of reusable React components and Tailwind-based utilities for quick prototyping.",
-    demo: "#",
+    description: "A school portal built with React.js that manages student, teacher, and course information. It features a modern dashboard, user authentication, and responsive design. The project is about 50% complete, focusing on smooth navigation and efficient data handling.",
     date: "Aug 02, 2025",
     status: "Pending",
     image: "../assect/Screenshot 2025-11-04 133718.png"
@@ -11,17 +10,17 @@ const projects = [
   {
     id: 2,
     title: "Mini Calculator",
-    description: `Project From Code
-    A simple web-based calculator built with HTML, CSS, and JavaScript. It performs basic arithmetic operations like addition, subtraction, multiplication,  division and other scientific calculation. The interface is clean, responsive, and easy to use for quick calculations.",
+    description: `Project From Codealpha — 
+    A simple web-based calculator built with HTML, CSS, and JavaScript. It performs basic arithmetic operations like addition, subtraction, multiplication,  division and other scientific calculation. The interface is clean, responsive, and easy to use for quick calculations.`,
     demo: "https://wealth777.github.io/codealpha-calculator-project/",
-    date: "Oct 15, 2025`,
+    date: "Oct 11, 2025",
     status: "completed",
     image: "../assect/Screenshot 2025-11-04 135325.png"
   },
   {
     id: 3,
     title: "GreatMind AI",
-    description: "...",
+    description: "A web-based AI application built with HTML, CSS, JavaScript, and Firebase. It allows users to interact with an intelligent chatbot that provides smart and context-aware responses. The interface is clean, modern, and responsive, designed to give a smooth chat experience across devices. It features secure user authentication through Firebase for personalized sessions. Messages are stored and retrieved in real time, ensuring fast and reliable communication. The app includes dynamic typing effects and chat bubbles for a realistic conversation flow. Firebase handles data storage, authentication, and hosting for seamless integration. The system is lightweight and efficient, optimized for both desktop and mobile browsers. It serves as a simple yet functional demo of combining AI with web technologies.",
     demo: "https://greatmindai-d812f.web.app/",
     date: "Sep 20, 2025",
     status: "completed",
@@ -30,20 +29,26 @@ const projects = [
     {
     id: 4,
     title: "PixHaven — Image Gallery",
-    description: "A responsive image gallery using Pixabay API, with category filters, modal viewer and offline handling.",
-    demo: "https://your-demo-link.com/pixhaven",
+    description: `PixHaven — Upgraded version Of Codealph gallery Project. PixHaven Is a modern image gallery web app that lets users search, view, and download beautiful high-quality photos from the Pixabay API.
+It features a clean, responsive design, dark mode, and offline support for a smooth experience.
+A responsive image gallery using Pixabay API, with category filters, modal viewer and offline handling.
+Users can sign in easily using Google, GitHub, Email, or Phone authentication via Firebase.
+Built with HTML, CSS, and JavaScript, PixHaven combines simplicity and creativity.
+Currently 85% complete, with the beta launch coming soon. 🚀 
+    `,
+    demo: "#",
     date: "Oct 15, 2025",
     status: "In Progress",
-    image: "/assets/projects/pixhaven.jpg"
+    image: "../assect/Screenshot 2025-11-04 132032.png"
   },
   {
     id: 5,
     title: "Fellowship Web Page",
     description: "Landing site for fellowship events with carousel, event cards and signup integration.",
-    demo: "https://your-demo-link.com/fellowship",
-    date: "Sep 20, 2025",
+    demo: "#",
+    date: "Sep 31, 2025",
     status: "In Progress",
-    image: "/assets/projects/fellowship.jpg"
+    image: "../assect/Screenshot 2025-11-04 142812.png"
   },
   {
     id: 6,
@@ -53,18 +58,18 @@ Here, you’ll find a collection of my completed and ongoing projects, each buil
 From crafting smooth user experiences to building responsive, modern interfaces, I focus on creating meaningful digital products.
 Every project reflects growth, creativity, and the desire to solve real problems through code.
 Take a look around — my work speaks for itself.`,
-    demo: "/",
-    date: "Oct 29, 2025",
+    demo: " https://wealth777.github.io/codealpha-myportfolio-project/",
+    date: "Oct 5, 2025",
     status: "completed",
     image: "../assect/Screenshot 2025-11-04 130734.png"
   },
   {
     id: 7,
     title: "Gallery App",
-    description: `PixHaven is a modern image gallery web app that lets users search, view, and download beautiful high-quality photos from the Pixabay API.
+    description: `Project From Codealpha — It is a modern image gallery web app that lets users search, view, and download beautiful high-quality photos from the Pixabay API.
 It features a clean, responsive design, dark mode.`,
     demo: "https://wealth777.github.io/codealpha-gallary-project/",
-    date: "Oct 29, 2025",
+    date: "Sep 29, 2025",
     status: "completed",
     image: "../assect/Screenshot 2025-11-04 132032.png"
   },
@@ -85,6 +90,33 @@ It features a clean, responsive design, dark mode.`,
     date: "August 5, 2025",
     status: "completed",
     image: "data:image/jpeg;base64,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"
+  },
+  {
+    id: 10,
+    title: "Evaluation Table",
+    description: "A simple evaluation table page that allows you to calculate. Its is built with HTML,CSS and JS",
+    demo: "https://wealth777.github.io/evaluations/",
+    date: "July 29, 2023",
+    status: "completed",
+    image: "../assect/Screenshot 2025-11-04 143719.png"
+  },
+  {
+    id: 11,
+    title: "Weather App",
+    description: "A simple weather application that allows you check the current weather statue of your enivronment. Its is built with HTML,CSS and JS",
+    demo: "https://wealth777.github.io/weather/",
+    date: "Sep 29, 2023",
+    status: "completed",
+    image: "../assect/Screenshot 2025-11-04 143953.png"
+  },
+  {
+    id: 12,
+    title: "Mini School Signup page",
+    description: "A mini school signup page, that can be used to signup student. Its is a demo project that I use to start my tech jouney. Its is built with HTML,CSS and JS",
+    demo: "https://wealth777.github.io/MiniSchoolSignPg/",
+    date: "Jun 29, 2023",
+    status: "completed",
+    image: "../assect/Screenshot 2025-11-04 144739.png"
   },
 ];
 
@@ -132,7 +164,7 @@ function renderProjects(list) {
                 <i class="fa-solid fa-arrow-up-right-from-square"></i> View Demo
               </a>
             </div>
-            <div class="text-muted small">${escapeHtml(proj.date)}</div>
+            <div class="small">${escapeHtml(proj.date)}</div>
           </div>
         </div>
       </article>
@@ -207,5 +239,40 @@ document.addEventListener('DOMContentLoaded', () => {
   
   searchInput.addEventListener('keydown', e => {
     if (e.key === 'Enter') applyFilters();
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+
+  // Smooth scroll
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', function (e) {
+      e.preventDefault();
+      const id = this.getAttribute('href').slice(1);
+      const target = document.getElementById(id);
+      if (target) target.scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+
+  // Theme toggle
+  const themeToggle = document.getElementById('theme-toggle');
+  const savedTheme = localStorage.getItem('theme');
+
+  // Apply saved theme
+  if (savedTheme === 'light') {
+    document.body.classList.add('light');
+    themeToggle.textContent = '🌞';
+  } else {
+    themeToggle.textContent = '🌙';
+  }
+
+  // Toggle theme on click
+  themeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('light');
+
+    const currentTheme = document.body.classList.contains('light') ? 'light' : 'dark';
+    themeToggle.textContent = currentTheme === 'light' ? '🌞' : '🌙';
+
+    localStorage.setItem('theme', currentTheme);
   });
 });
