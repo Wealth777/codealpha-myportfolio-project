@@ -5,7 +5,7 @@ const projects = [
     description: "A school portal built with React.js that manages student, teacher, and course information. It features a modern dashboard, user authentication, and responsive design. The project is about 50% complete, focusing on smooth navigation and efficient data handling.",
     date: "Aug 02, 2025",
     status: "Pending",
-    image: "../assect/Screenshot 2025-11-04 133718.png"
+    image: "./assect/Screenshot13.png"
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const projects = [
     demo: "https://wealth777.github.io/codealpha-calculator-project/",
     date: "Oct 11, 2025",
     status: "completed",
-    image: "../assect/Screenshot 2025-11-04 135325.png"
+    image: "./assect/Screenshot15.png"
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const projects = [
     demo: "https://greatmindai-d812f.web.app/",
     date: "Sep 20, 2025",
     status: "completed",
-    image: "../assect/Screenshot 2025-11-04 135002.png"
+    image: "./assect/Screenshot14.png"
   },
     {
     id: 4,
@@ -39,7 +39,7 @@ Currently 85% complete, with the beta launch coming soon. 🚀
     demo: "#",
     date: "Oct 15, 2025",
     status: "In Progress",
-    image: "../assect/Screenshot 2025-11-04 132032.png"
+    image: "./assect/Screenshot12.png"
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ Currently 85% complete, with the beta launch coming soon. 🚀
     demo: "#",
     date: "Sep 31, 2025",
     status: "In Progress",
-    image: "../assect/Screenshot 2025-11-04 142812.png"
+    image: "./assect/Screenshot16.png"
   },
   {
     id: 6,
@@ -61,7 +61,7 @@ Take a look around — my work speaks for itself.`,
     demo: " https://wealth777.github.io/codealpha-myportfolio-project/",
     date: "Oct 5, 2025",
     status: "completed",
-    image: "../assect/Screenshot 2025-11-04 130734.png"
+    image: "./assect/Screenshot11.png"
   },
   {
     id: 7,
@@ -71,7 +71,7 @@ It features a clean, responsive design, dark mode.`,
     demo: "https://wealth777.github.io/codealpha-gallary-project/",
     date: "Sep 29, 2025",
     status: "completed",
-    image: "../assect/Screenshot 2025-11-04 132032.png"
+    image: "./assect/Screenshot11.png"
   },
   {
     id: 8,
@@ -80,7 +80,7 @@ It features a clean, responsive design, dark mode.`,
     demo: "https://wealth777.github.io/Football_Lineup/",
     date: "Oct 29, 2025",
     status: "completed",
-    image: "../assect/Screenshot 2025-11-04 103034.png"
+    image: "./assect/Screenshot1.png"
   },
   {
     id: 9,
@@ -98,7 +98,7 @@ It features a clean, responsive design, dark mode.`,
     demo: "https://wealth777.github.io/evaluations/",
     date: "July 29, 2023",
     status: "completed",
-    image: "../assect/Screenshot 2025-11-04 143719.png"
+    image: "./assect/Screenshot17.png"
   },
   {
     id: 11,
@@ -107,7 +107,7 @@ It features a clean, responsive design, dark mode.`,
     demo: "https://wealth777.github.io/weather/",
     date: "Sep 29, 2023",
     status: "completed",
-    image: "../assect/Screenshot 2025-11-04 143953.png"
+    image: "./assect/Screenshot18.png"
   },
   {
     id: 12,
@@ -116,7 +116,7 @@ It features a clean, responsive design, dark mode.`,
     demo: "https://wealth777.github.io/MiniSchoolSignPg/",
     date: "Jun 29, 2023",
     status: "completed",
-    image: "../assect/Screenshot 2025-11-04 144739.png"
+    image: "./assect/Screenshot19.png"
   },
 ];
 
